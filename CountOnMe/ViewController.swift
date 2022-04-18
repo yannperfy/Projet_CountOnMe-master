@@ -12,6 +12,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet var numberButtons: [UIButton]!
     
+    @IBOutlet weak var additionButton: UIButton!
+    
+    @IBOutlet weak var soustractionButton: UIButton!
+    
+    @IBOutlet weak var multiplicationButton: UIButton!
+    
+    @IBOutlet weak var divisionButton: UIButton!
+    
+    @IBOutlet weak var egalButtopon: UIButton!
+    
     var elements: [String] {
         return textView.text.split(separator: " ").map { "\($0)" }
     }
