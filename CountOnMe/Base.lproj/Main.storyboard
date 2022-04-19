@@ -246,11 +246,22 @@
                     </view>
                     <connections>
                         <outlet property="additionButton" destination="Hkr-13-i1X" id="qqg-zK-5vY"/>
+                        <outlet property="cinqBoutton" destination="VoV-jM-ym6" id="rOZ-U0-riL"/>
+                        <outlet property="deleteBoutton" destination="wna-gE-HLg" id="mA0-py-bci"/>
+                        <outlet property="deuxBoutton" destination="tMJ-tH-k5u" id="USG-QD-kQ6"/>
                         <outlet property="divisionButton" destination="UDN-zf-T0y" id="8bz-ii-ymn"/>
                         <outlet property="egalButtopon" destination="YD6-ul-r3f" id="zXa-wL-kef"/>
+                        <outlet property="huitBoutton" destination="Raa-av-x4n" id="Vlp-gG-pbS"/>
                         <outlet property="multiplicationButton" destination="S66-ub-JAX" id="Ace-9F-9cU"/>
+                        <outlet property="neufBoutton" destination="jd7-ld-hSU" id="AKq-un-RfX"/>
+                        <outlet property="quatreBoutton" destination="21N-gs-5oR" id="DOg-SZ-lff"/>
+                        <outlet property="septBoutton" destination="USD-ee-gyu" id="ZKU-r9-xAR"/>
+                        <outlet property="sixBoutton" destination="lad-SR-mqj" id="T3k-L7-wyc"/>
                         <outlet property="soustractionButton" destination="Tqr-Ly-DZn" id="BNl-Bg-lTK"/>
                         <outlet property="textView" destination="T2H-yn-nBB" id="yqe-Yo-Sag"/>
+                        <outlet property="troisBoutton" destination="EPx-3X-zTa" id="KDr-MB-GRi"/>
+                        <outlet property="unBoutton" destination="uqn-ub-veK" id="WVe-kS-MxZ"/>
+                        <outlet property="zeroBoutton" destination="W04-n1-Wen" id="M60-VT-xmT"/>
                         <outletCollection property="numberButtons" destination="W04-n1-Wen" collectionClass="NSMutableArray" id="GyC-WE-dUi"/>
                         <outletCollection property="numberButtons" destination="uqn-ub-veK" collectionClass="NSMutableArray" id="nUi-vy-wL9"/>
                         <outletCollection property="numberButtons" destination="tMJ-tH-k5u" collectionClass="NSMutableArray" id="YS4-62-QgS"/>

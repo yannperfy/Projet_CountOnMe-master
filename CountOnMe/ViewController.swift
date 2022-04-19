@@ -21,7 +21,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var divisionButton: UIButton!
     
     @IBOutlet weak var egalButtopon: UIButton!
+    @IBOutlet weak var deleteBoutton: UIButton!
     
+    @IBOutlet weak var zeroBoutton: UIButton!
+    @IBOutlet weak var unBoutton: UIButton!
+    @IBOutlet weak var deuxBoutton: UIButton!
+    @IBOutlet weak var troisBoutton: UIButton!
+    @IBOutlet weak var quatreBoutton: UIButton!
+    @IBOutlet weak var cinqBoutton: UIButton!
+    @IBOutlet weak var sixBoutton: UIButton!
+    @IBOutlet weak var septBoutton: UIButton!
+    @IBOutlet weak var huitBoutton: UIButton!
+    @IBOutlet weak var neufBoutton: UIButton!
     var elements: [String] {
         return textView.text.split(separator: " ").map { "\($0)" }
     }
@@ -51,6 +62,18 @@ class ViewController: UIViewController {
         multiplicationButton.layer.cornerRadius = 6
         divisionButton.layer.cornerRadius = 6
         egalButtopon.layer.cornerRadius = 6
+        deleteBoutton.layer.cornerRadius = 6
+              zeroBoutton.layer.cornerRadius = 6
+              unBoutton.layer.cornerRadius = 6
+              deuxBoutton.layer.cornerRadius = 6
+              troisBoutton.layer.cornerRadius = 6
+              quatreBoutton.layer.cornerRadius = 6
+              cinqBoutton.layer.cornerRadius = 6
+              sixBoutton.layer.cornerRadius = 6
+              septBoutton.layer.cornerRadius = 6
+              huitBoutton.layer.cornerRadius = 6
+              neufBoutton.layer.cornerRadius = 6
+              textView.layer.cornerRadius = 15
     }
     
     
