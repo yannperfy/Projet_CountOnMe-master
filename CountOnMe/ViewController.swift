@@ -46,7 +46,11 @@ class ViewController: UIViewController {
     // View Life cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        additionButton.layer.cornerRadius = 6
+        soustractionButton.layer.cornerRadius = 6
+        multiplicationButton.layer.cornerRadius = 6
+        divisionButton.layer.cornerRadius = 6
+        egalButtopon.layer.cornerRadius = 6
     }
     
     
