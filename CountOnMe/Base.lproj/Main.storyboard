@@ -71,6 +71,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedDeleteBoutton:" destination="eqK-jh-KKu" eventType="touchUpInside" id="K6b-55-Xgh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -183,6 +186,9 @@
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedDivisionBoutton:" destination="eqK-jh-KKu" eventType="touchUpInside" id="PGp-5H-486"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S66-ub-JAX" userLabel="multiplication">
                                                 <rect key="frame" x="0.0" y="54" width="129" height="44"/>
@@ -191,6 +197,9 @@
                                                 <state key="normal" title="×">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tappedMultplicationBoutton:" destination="eqK-jh-KKu" eventType="touchUpInside" id="CP1-8k-BXc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqr-Ly-DZn" userLabel="soustraction">
                                                 <rect key="frame" x="0.0" y="108" width="129" height="44"/>
